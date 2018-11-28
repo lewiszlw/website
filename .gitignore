@@ -1,2 +1,4 @@
 data.db*
 *.pyc
+.idea/
+.mypy_cache/

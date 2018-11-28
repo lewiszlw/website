@@ -1,0 +1,27 @@
+// 站点数据文件
+// 格式：{name}|{url}
+baidu                  |   https://www.baidu.com
+taobao                 |   https://www.taobao.com
+google                 |   https://www.google.com
+tbms-test              |   http://qa.lvyou.test.sankuai.com/tbms/trip/
+tbms-st                |   http://st.lvyou.meituan.com/tbms/trip/
+tbms-prod              |   http://lvyou.meituan.com/tbms/trip/
+商家后台3f-test        |   http://qa.3f.meituan.com
+商家后台3f-st          |   http://st.3f.meituan.com
+商家后台3f-prod        |   https://mpc.meituan.com/
+uac-beta               |   http://uac.it.beta.sankuai.com/system-list
+uac-vip                |   http://uac.vip.sankuai.com/user-list
+大象daxiang-test       |   http://xm-web.it.test.sankuai.com/
+大象daxiang-prod       |   https://x.sankuai.com/
+gravity-test           |   http://bpm.meishi.test.sankuai.com/stat/dashboard/list
+gravity-dev            |   http://release.gravity.test.sankuai.info/stat/dashboard/list
+gravity-st             |   http://bpm.meishi.st.sankuai.com/
+gravity-prod           |   http://bpm.sankuai.com/
+mq管理平台-test        |   http://mq.test.sankuai.com
+mq管理平台-prod        |   https://mq.sankuai.com
+octo-线下              |   http://octo.test.sankuai.com
+octo-线上              |   https://octo.sankuai.com
+plus                   |   https://plus.yun.sankuai.com
+cat-prod               |   http://cat.sankuai.com/
+cat-st                 |   http://staging.cat.sankuai.com/
+cat-test               |   http://test.cat.sankuai.com/

@@ -21,9 +21,9 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>lewiszlw</string>
+	<string>lewiszlw@163.com</string>
 	<key>description</key>
-	<string>quick open weisite</string>
+	<string>open website quickly</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -40,7 +40,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>website</string>
+				<string>site</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -52,7 +52,7 @@
 				<key>runningsubtext</key>
 				<string>正在搜索{query}...</string>
 				<key>script</key>
-				<string>python website.py {query}</string>
+				<string>python search.py {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -92,6 +92,49 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>.site+</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>python insert.py '{query}'</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>添加常用站点</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C60E9FB4-EF56-48E0-AF0E-C4A3FD1C23E9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -100,16 +143,23 @@
 		<key>98A6A11C-DA7D-4300-8AC2-34DBBC83260D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>540</integer>
+			<integer>560</integer>
 			<key>ypos</key>
-			<integer>170</integer>
+			<integer>90</integer>
+		</dict>
+		<key>C60E9FB4-EF56-48E0-AF0E-C4A3FD1C23E9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>290</integer>
+			<key>ypos</key>
+			<integer>240</integer>
 		</dict>
 		<key>CFE3278D-1C64-4FA9-895B-8538827B1F66</key>
 		<dict>
 			<key>xpos</key>
 			<integer>290</integer>
 			<key>ypos</key>
-			<integer>40</integer>
+			<integer>90</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
